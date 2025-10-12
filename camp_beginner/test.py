@@ -5,10 +5,29 @@
 #     return True if age > 18 else False
 
 # string operators
-string_test = "test"
-print("zole".upper())
-print("zole".lower())
-print("zole".title())
-print("zole".islower())
-print(len(string_test))
-print("st" in string_test)
+# string_test = "test"
+# print("zole".upper())
+# print("zole".lower())
+# print("zole".title())
+# print("zole".islower())
+# print(len(string_test))
+# print("st" in string_test)
+
+
+# name = "Zole"
+# print(name.lower())
+# print(name)
+# print(len(name))
+
+# print("zo" in name)
+
+# name = "Zole"
+# print(name[:2]) # od napred
+# print (name[2:]) # od nazad
+
+
+done = False
+if done:
+    print("yes")
+else:
+    print("No")
