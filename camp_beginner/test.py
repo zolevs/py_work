@@ -26,8 +26,19 @@
 # print (name[2:]) # od nazad
 
 
-done = False
-if done:
-    print("yes")
-else:
-    print("No")
+# done = False
+# if done:
+#     print("yes")
+# else:
+#     print("No")
+
+# name = "Zole"
+# print(name.lower())
+# print(name)
+# print(len(name))
+# print("ol" in name)
+
+# print("Zoran \"Zole\" " )
+
+name = "Zole"
+print(name[1])
