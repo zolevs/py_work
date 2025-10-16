@@ -26,8 +26,17 @@
 # print (name[2:]) # od nazad
 
 
-done = False
-if done:
-    print("yes")
-else:
-    print("No")
+# done = False
+# if done:
+#     print("yes")
+# else:
+#     print("No")
+
+# age = 21
+
+# def is_adult2(age):
+#     return True if age > 18 else False
+
+name = Zole
+phrase = name + " is my name"
+print(phrase)
