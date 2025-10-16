@@ -32,11 +32,15 @@
 # else:
 #     print("No")
 
-# age = 21
+# name = "Zole"
+# print(name.lower())
+# print(name)
+# print(len(name))
+# print("ol" in name)
 
-# def is_adult2(age):
-#     return True if age > 18 else False
+# print("Zoran \"Zole\" " )
 
-name = Zole
-phrase = name + " is my name"
-print(phrase)
+name = "Zole"
+print(name[1])
+
+# ovo dodajem samo da proverim sta ce mi biti kod kuce 
