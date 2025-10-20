@@ -1,11 +1,11 @@
 # variables 
 # data types
 # operators
+# comparison
+ 
+print("Zole" + " is cool.")
 
-name = "Zole"
-age = float(51)
-
-print (isinstance(name, str))
-print (isinstance(age, float))
+age = 8
+age += 8
 
 print(age)
