@@ -3,9 +3,11 @@
 # operators
 # comparison
  
-print("Zole" + " is cool.")
+# print("Zole" + " is cool.")
 
-age = 8
-age += 8
+# age = 8
+# age += 8
 
-print(age)
+# print(age)
+
+print(len("zole ovo je"))
