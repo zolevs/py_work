@@ -40,7 +40,43 @@
 
 # print("Zoran \"Zole\" " )
 
-name = "Zole"
-print(name[1])
+# name = "Zole"
+# print(name[1])
+
+# name = "Zole"
+# print(name[1:3])
+
+num = complex(2,3)
+print(num.real, num.imag)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # ovo dodajem samo da proverim sta ce mi biti kod kuce 
+
+# ovo je kod kuce radjeno necu dirati from_work.py
+# da vidim sta ce biti na poslu
