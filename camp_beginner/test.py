@@ -46,19 +46,45 @@
 # name = "Zole"
 # print(name[1:3])
 
-num = complex(2,3)
-print(num.real, num.imag)
+# age = input()
+# print("Your age is " + age)
 
+# condition = False
+# name = "Mo"
+# if condition == True:
+#     print("The condition")
+#     print("was true")
+# elif name == "Roger":
+#     print("Name is Roger")
+# elif name == "Sys":
+#     print("Name is Sys")
+# else:
+#     print("It was false")
 
+# lists
 
+# dogs = ["Roger", "Sys", 2, True]
 
+# print ("Roger" in dogs)
+# print ("Zole" in dogs)
 
+dogs = ["Roger", "Sys", 2, True, "Mamalu"]
 
+print (dogs[1])
 
+dogs[3] = "Zole"
 
+print(dogs)
 
+print(len(dogs))
+dogs.append("Another")
 
+print(dogs)
+# dogs.extend([1, 2, 3, "Name"])
+dogs += [1, 2, 3, "Zozon"]
 
+print(len(dogs))
+print(dogs)
 
 
 
