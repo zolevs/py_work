@@ -68,34 +68,47 @@
 # print ("Roger" in dogs)
 # print ("Zole" in dogs)
 
-dogs = ["Roger", "Sys", 2, True, "Mamalu"]
+# dogs = ["Roger", "Sys", 2, True, "Mamalu"]
 
-print (dogs[1])
+# print (dogs[1])
 
-dogs[3] = "Zole"
+# dogs[3] = "Zole"
 
-print(dogs)
+# print(dogs)
 
-print(len(dogs))
-dogs.append("Another")
+# print(len(dogs))
+# dogs.append("Another")
 
-print(dogs)
-# dogs.extend([1, 2, 3, "Name"])
-dogs += [1, 2, 3, "Zozon"]
+# print(dogs)
+# # dogs.extend([1, 2, 3, "Name"])
+# dogs += [1, 2, 3, "Zozon"]
 
-print(len(dogs))
-print(dogs)
+# print(len(dogs))
+# print(dogs)
 
+# items = ["Roger", 1, "Sys", True, "Zozon", 8, 7]
 
+# items.insert(2, "Test")
+# items = []
 
+# # items[1:1] = [2, 11, 4, 1]
+# items = ["zozon", "b", "a", "d", "Zozon"]
+# itemscopy = items[:]
+# items.sort(key = str.lower)
 
+# print(items)
 
+# print(itemscopy)
 
+#tuples
+#dictionaries
+dog = { "name": "Zozxo", "age": 19}
 
+print(dog['name'])
 
+dog["name"] = "Sys"
 
-
-
+print(dog['name'])
 
 
 
@@ -104,5 +117,5 @@ print(dogs)
 
 # ovo dodajem samo da proverim sta ce mi biti kod kuce 
 
-# ovo je kod kuce radjeno necu dirati from_work.py
+# ovo je kod kuce radjeno necu  from_work.py je upisano kada sam ga menjao
 # da vidim sta ce biti na poslu

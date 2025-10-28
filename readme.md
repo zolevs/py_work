@@ -12,3 +12,4 @@ Python
 >>>>>>> 91ab51f4017cb89327723a656517da7144dc5886
 26.10.25 https://youtu.be/eWRfhZUzrAc?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB&t=5301
 27.10.25 https://youtu.be/eWRfhZUzrAc?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB&t=6382
+28.10.25 https://youtu.be/eWRfhZUzrAc?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB&t=7273
