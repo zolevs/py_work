@@ -40,8 +40,7 @@
 
 # print("Zoran \"Zole\" " )
 
-# name = "Zole"
-# print(name[1])
+name = "Zole"
+print(name[1])
 
 # ovo dodajem samo da proverim sta ce mi biti kod kuce 
-
