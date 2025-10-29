@@ -68,32 +68,63 @@
 # print ("Roger" in dogs)
 # print ("Zole" in dogs)
 
-dogs = ["Roger", "Sys", 2, True, "Mamalu"]
+# dogs = ["Roger", "Sys", 2, True, "Mamalu"]
 
-print (dogs[1])
+# print (dogs[1])
 
-dogs[3] = "Zole"
+# dogs[3] = "Zole"
 
-print(dogs)
+# print(dogs)
 
-print(len(dogs))
-dogs.append("Another")
+# print(len(dogs))
+# dogs.append("Another")
 
-print(dogs)
-# dogs.extend([1, 2, 3, "Name"])
-dogs += [1, 2, 3, "Zozon"]
+# print(dogs)
+# # dogs.extend([1, 2, 3, "Name"])
+# dogs += [1, 2, 3, "Zozon"]
 
-print(len(dogs))
-print(dogs)
+# print(len(dogs))
+# print(dogs)
+
+# Dictionary
+
+# d1 = {1: "Geeks", 2: "for", 3: "Geeks" }
+# print (d1)
+
+# d2 = dict (a = "Geeks", b = "for", c="geeks")
+# print(d2)
+
+# d = {"name": "Zole", 1: "Python", (1, 2):[1,2,3]}
+# print(d["name"])
+
+# print(d.get(1))
+
+# print(d[1,2])
+
+# d = {1: "Geeks", 2: "for", 3: "Geeks"}
+
+# d["age"] = 22
+# d[1] = "Python dict"
+
+# print(d)
+
+# methods and dictionary
+
+d = {1: "Geek", 2: "For", 3: "Geeks", "age":52 }
+del d["age"]
+
+print (d)
+
+val = d.pop(1)
+print(val)
+print(d)
 
 
+d = {'A': "Geeks", 'B': "for", 'C': "Geeks"}
+# k = d.keys()
 
-
-
-
-
-
-
+for k in d.keys():
+    print(k)
 
 
 
