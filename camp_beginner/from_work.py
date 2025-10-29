@@ -11,3 +11,6 @@
 # print(age)
 
 print(len("zole ovo je"))
+
+# nikako da uhvatim sta gde ide.
+# pisano 28.10.25 - 17:43
