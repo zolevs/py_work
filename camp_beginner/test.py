@@ -110,24 +110,30 @@
 
 # methods and dictionary
 
-d = {1: "Geek", 2: "For", 3: "Geeks", "age":52 }
-del d["age"]
+# d = {1: "Geek", 2: "For", 3: "Geeks", "age":52 }
+# del d["age"]
 
-print (d)
+# print (d)
 
-val = d.pop(1)
-print(val)
-print(d)
-
-
-d = {'A': "Geeks", 'B': "for", 'C': "Geeks"}
-# k = d.keys()
-
-for k in d.keys():
-    print(k)
+# val = d.pop(1)
+# print(val)
+# print(d)
 
 
+# d = {'A': "Geeks", 'B': "for", 'C': "Geeks"}
+# # k = d.keys()
 
+# for k in d.keys():
+#     print(k)
+
+
+# functions
+
+def hello(name):
+    print("Hello " + name)
+    return name
+
+hello("Zole")
 
 
 
