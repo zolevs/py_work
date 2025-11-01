@@ -129,11 +129,27 @@
 
 # functions
 
-def hello(name):
-    print("Hello " + name)
-    return name
+# def hello(name):
+#     print("Hello " + name)
+#     return name
 
-hello("Zole")
+# hello("Zole")
+
+
+def greet():
+    print("Hello from greet")
+
+greet()
+
+
+
+
+
+
+
+
+
+
 
 
 
