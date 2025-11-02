@@ -136,9 +136,14 @@
 # hello("Zole")
 
 
-def greet():
-    print("Hello from greet")
+# def greet():
+#     print("Hello from greet")
 
+# greet()
+
+def greet(name = "friend"):
+    print("Hello " + name + "!")
+    return name
 greet()
 
 
