@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator Sudskih Troškova</title>
+    <style>
+        /* Osnovni stilovi za čitljivost */
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .container { max-width: 400px; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+        label, input, button { display: block; margin-bottom: 10px; width: 100%; box-sizing: border-box; }
+        input[type="number"] { padding: 8px; border: 1px solid #ddd; }
+        button { background-color: #007bff; color: white; padding: 10px; border: none; border-radius: 4px; cursor: pointer; }
+        .result-box { margin-top: 20px; padding: 10px; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h3>⚖️ Kalkulator Vrednosti Spornog Predmeta</h3>
+
+        <label for="txtNumber">Unesite vrednost spora:</label>
+        <input type="number" id="txtNumber" placeholder="Iznos (din)" value="0">
+        
+        <button id="btnGo" onclick="izracunaj()">Izračunaj troškove</button>
+
+        <div class="result-box">
+            <p><strong>Ukupna vrednost spora (Text19):</strong> <span id="Text19">0.00</span> din</p>
+            <p><strong>Polovina troškova (Text10):</strong> <span id="Text10">0.00</span> din</p>
+            <p><strong>Trećina troškova (Text14):</strong> <span id="Text14">0.00</span> din</p>
+        </div>
+    </div>
+
+    <script>
+        function izracunaj() {
+            // A) Uzmi ulaznu vrednost (ekvivalent x = Me.txtNumber.Value)
+            const x = parseFloat(document.getElementById('txtNumber').value);
+            
+            // Provera da li je uneta vrednost validan broj
+            if (isNaN(x) || x < 0) {
+                alert("Molimo unesite validan pozitivan broj.");
+                return;
+            }
+
+            let vrednostSpora;
+
+            // B) Primena poslovne logike (ekvivalent Select Case)
+            if (x <= 10000) {
+                vrednostSpora = 2800;
+            } else if (x > 10000 && x <= 100000) {
+                vrednostSpora = 2800 + (x * 0.04);
+            } else if (x > 100000 && x <= 500000) {
+                vrednostSpora = 11000 + (x * 0.02);
+            } else if (x > 500000 && x <= 1000000) {
+                vrednostSpora = 32000 + (x * 0.01);
+            } else if (x > 1000000 && x <= 9739999) {
+                // Koristi se vrednost 53000 + (x * 0.005) iz obe VBA procedure
+                vrednostSpora = 53000 + (x * 0.005);
+            } else {
+                // Koristi se vrednost 10500 iz txtNumber_AfterUpdate procedure (Case Else)
+                vrednostSpora = 10500; 
+            }
+
+            // C) Zaokruživanje i izračunavanje dodatnih vrednosti (ekvivalent Round i Text polja)
+            // Funkcija toFixed(2) formatira broj na 2 decimale
+            const text19 = vrednostSpora.toFixed(2);
+            const text10 = (vrednostSpora / 2).toFixed(2);
+            const text14 = (vrednostSpora / 3).toFixed(2);
+
+            // D) Prikaz rezultata na stranici
+            document.getElementById('Text19').textContent = text19;
+            document.getElementById('Text10').textContent = text10;
+            document.getElementById('Text14').textContent = text14;
+        }
+
+        // Dodavanje automatskog izračunavanja nakon promene (ekvivalent txtNumber_AfterUpdate)
+        document.getElementById('txtNumber').addEventListener('change', izracunaj);
+        
+        // Pokreni izračunavanje pri učitavanju stranice za početnu vrednost '0'
+        document.addEventListener('DOMContentLoaded', izracunaj);
+    </script>
+
+</body>
+</html>
