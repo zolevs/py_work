@@ -13,4 +13,5 @@ Python
 26.10.25 https://youtu.be/eWRfhZUzrAc?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB&t=5301
 27.10.25 https://youtu.be/eWRfhZUzrAc?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB&t=6382
 28.10.25 https://youtu.be/eWRfhZUzrAc?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB&t=7273
-29.10.25 https://youtu.be/eWRfhZUzrAc?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB&t=7573 /work/
+29.10.25 https://youtu.be/eWRfhZUzrAc?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB&t=7573  // dictionary, sets
+30.10.25 https://youtu.be/eWRfhZUzrAc?t=8580 // functions, variable scope, nested functions, clousures
